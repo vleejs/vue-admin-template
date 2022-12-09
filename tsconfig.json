@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true, // docs https://cn.vitejs.dev/guide/features.html#typescript
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "types/**/*.d.ts", "vite.config.ts"],
+  /** 编译器默认排除的编译文件 */
+  "exclude": ["node_modules", "dist"]
+}

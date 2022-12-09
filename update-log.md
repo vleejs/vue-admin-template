@@ -1,0 +1,6 @@
+- 使用新型前端构建工具 `vite` [vite-doc](https://cn.vitejs.dev/guide/)
+- 查看 [create-vite](https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vue-ts/package.json) 仓库依赖 vite 作为最新的 开发时候依赖
+- 修改 vite 默认的端口
+- vue 最新依赖
+- 使用`pnpm` 来管理依赖
+- 选取一个 UI 开发侧边栏

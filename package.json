@@ -1,0 +1,18 @@
+{
+  "name": "vue-admin-template",
+  "scripts": {
+    "dev": "vite",
+    "check": "tsc --noEmit"
+  },
+  "author": "vanlee",
+  "dependencies": {
+    "@vueuse/core": "^9.6.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "prettier": "^2.8.1",
+    "vite": "^4.0.0"
+  }
+}
