@@ -6,8 +6,11 @@
   },
   "author": "vanlee",
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
     "@vueuse/core": "^9.6.0",
-    "vue": "^3.2.45"
+    "element-plus": "^2.2.27",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@types/node": "^18.11.12",
