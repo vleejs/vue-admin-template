@@ -7,10 +7,10 @@ export default defineConfig(({ command, mode, ssrBuild }: ConfigEnv) => {
   const { VITE_PUBLIC_PATH } = viteEnv
   return {
     /** 共享配置 */
-    base: VITE_PUBLIC_PATH,
+    base: VITE_PUBLIC_PATH, // "base" option should start with a slash
     resolve: {
       alias: {
-        '@': resolve(__dirname, './src') // @ 符号 指向src 所谓的别名配置
+        '@': resolve(__dirname, '.', 'src') // @ 符号 指向src 所谓的别名配置
       }
     },
     plugins: [vue()],

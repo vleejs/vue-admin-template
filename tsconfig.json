@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
     "isolatedModules": true, // docs https://cn.vitejs.dev/guide/features.html#typescript
     "types": ["vite/client"]
   },
